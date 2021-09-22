@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'titillium-web';
+    src: url(../font/TitilliumWeb-Regular.ttf);
+}
+h1{
+    font-family:'Georgia';
+    font-size: 60px ;
+    text-align: center;
+    text-shadow: rgb(226, 43, 43);
+}
+body{
+    background-color: #e192e7;
+    /*background-image: url(../img/gif.gif);*/
+}
+header{
+    background-color: whitesmoke;
+    margin: 10px;
+}
+.header-social-media img{
+    width: 30px;
+}
+.header-social-media{
+    background-color: #f097edd2;
+}
+.header-content{
+    background-image: url(../img/gif.gif);
+}
+.header-content .titulo h1{
+    text-align: center;
+    
+    /*text-transform:uppercase;*/
+}
+.header-content .unab img{
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    top:0;
+}
+.unab{
+    width: 0%;
+}
+.titulo{
+    width: 100%;
+    padding-top: 25px;
+}
+.header-content{
+    display: flex;
+}
+.navigation{
+    background-color: #964b9c;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main{
+    background-color:rgba(136, 60, 136, 0.418);
+    margin: 20px;
+}
+footer{
+    margin: 5px;
+    background-color: #d67add;
+}
+.menu{
+    width:100%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu a{
+    display: block;
+    background-color: #8b3077;
+    color: #FFF;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'titillium-web';
+}
+.menu a:hover{
+    background-color: #d67add;
+    color: rgba(179, 16, 138, 0.575);
+    color: white;
+}
+.menu ul li ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+.main-content button{
+    border: 1px solid #e192e7;
+    padding: 20px;
+    background-color: #e192e7;
+    border-radius: 5%;
+    width: 200px;
+}
+.main-content{
+    background-image: url(../img/within-3113211_960_720.jpg);
+    height: 600px;
+    /*width: 500%;*/
+    margin: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.main-content button a{
+    text-decoration: none;
+}
+.main-content button a:visited{
+    color: rgb(15, 18, 22);
+}
